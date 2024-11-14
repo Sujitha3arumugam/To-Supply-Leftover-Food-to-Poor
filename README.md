@@ -1,4 +1,4 @@
-#Code:
+
 trigger DropOffTrigger on Drop_Off_point__c (before insert) {
 
     for(Drop_Off_point__c Drop : Trigger.new){
